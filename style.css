@@ -1,0 +1,68 @@
+*{
+    font-weight: 700;
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+.common{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.left{
+    border: 1px solid grey;
+    padding: 30px;
+}
+.numbers{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.actions{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left button{
+    width: 350px;
+    height: 30px;
+    font-size: 16px;
+}
+.left .result{
+    color: red;
+}
+
+
+.right{
+    border: 1px solid grey;
+    padding: 30px 50px;
+}
+.typing{
+    border: 1px solid grey;
+    height: 35px;
+    line-height: 200%;
+}
+.calc{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.td{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right button{
+    width: 100px;
+    height: 30px;
+}
+.typing{
+    color: red;
+}
+.ce{
+    color: red;
+}

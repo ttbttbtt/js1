@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Введение в JavaScript</h1>
+    <div class="common">
+        <div class="left">
+            <h2>Математические операторы</h2>
+            <div class="numbers">
+                <label>Введите первое число: <input type="text" class="number"></label>
+                <label>Введите второе число: <input type="text" class="number"></label>
+                <div class="result">Результат: </div>
+            </div>
+            <div class="actions">
+                <button class="btn" onclick="sum()">Сумма</button>
+                <button class="btn" onclick="sr_ariph()">Среднее арифметическое</button>
+                <button class="btn" onclick="sr_ariph_kv()">Среднее арифметическое их квадратов</button>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Калькулятор</h2>
+            <div class="typing"></div>
+            <div class="calc">
+                <div class="td">
+                    <button onclick="add(1)">1</button>
+                    <button onclick="add(3)">3</buttonclass=>
+                    <button onclick="add(5)">5</button>
+                    <button onclick="add(7)">7</button>
+                    <button onclick="add(9)">9</button>
+                </div>
+                <div class="td">
+                    <button onclick="add(2)">2</button>
+                    <button onclick="add(4)">4</button>
+                    <button onclick="add(6)">6</button>
+                    <button onclick="add(8)">8</button>
+                    <button onclick="add(0)">0</button>
+                </div>
+                <div class="td">
+                    <button onclick="add('+')">+</button>
+                    <button onclick="add('-')">-</button>
+                    <button onclick="add('*')">*</button>
+                    <button onclick="add('/')">/</button>
+                    <button onclick="calcul()">=</button>
+                    <button class="ce" onclick="clean()">CE</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
