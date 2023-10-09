@@ -56,11 +56,18 @@ function calcul(){
         sum=Number(n1)*Number(n2)
     }
     else {
-        sum=Number(n1)/Number(n2)
+        if (n2!=0){
+           sum=Number(n1)/Number(n2)
+        }
     }
     // console.log(sum)
     let typing=document.querySelector(".typing")
-    typing.innerHTML=sum
+    if (znak=='/' && n2==0){
+        typing.innerHTML='На 0 делить нельзя!'
+    }
+    else{
+        typing.innerHTML=sum
+    }
 }
 function clean(){
     let sum=''
